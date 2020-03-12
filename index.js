@@ -1,4 +1,9 @@
-const server = require("./api/server.js");
+require("dotenv").config();
+// read from a .env file located at the root of the project
+ // and merge the key/value pairs into process.env
+
+const server = require("./api/server.js"); 
+ 
 
 // make the mport be assigned by the Server
 // heroku will place the .PORT environment value on their server
